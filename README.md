@@ -21,6 +21,7 @@ IMDB Crawer
 - bs4==0.0.1
 - ipython==7.2.0
 - ipython-genutils==0.2.0 
+- pytest==3.6.1
 
 ## Resumo
 
