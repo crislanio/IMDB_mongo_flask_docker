@@ -69,6 +69,8 @@ IMDB Crawer
 4.2 - Possibilitar a avaliação dos resultados via Docker (Logs, Serviços Web ou o que preferir)                                         FALTA
 
 ## Como rodar
+ - pip install pytest coverage pytest-cov flask     # Instalando lib de teste
+ - python test_core.py                              # testando APP
  - docker-compose up --build __ na pasta 
  - python app.py
 ## Testando a aplicação
