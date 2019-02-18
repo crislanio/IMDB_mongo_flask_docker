@@ -72,7 +72,8 @@ IMDB Crawer
 ## Como rodar
  - pip install pytest coverage pytest-cov flask     # Instalando lib de teste
  - python test_core.py                              # testando APP
- - docker-compose up --build __ na pasta 
+ - docker-compose up --build __ na pasta
+ - python crawer_movies.py
  - python app.py
 ## Testando a aplicação
 
