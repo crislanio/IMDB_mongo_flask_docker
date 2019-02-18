@@ -8,13 +8,18 @@ from pymongo import MongoClient
 
 #------------------------------------------#
 
-app = Flask(__name__)
+app = Flask('app')
 app.config["MONGO_URI"] = "mongodb://localhost:27017/imdb"
 mongo = PyMongo(app)
 
 client =  MongoClient('mongodb://localhost:27017/') 
 db = client.imdb.movies_imdb_oficial 
 posts = client.imdb.movies_imdb_oficial #.mv[0] 
+
+
+@app.route('/')
+def pagina_inicial():
+    return "Teste"
 
 @app.route('/movie', methods=['POST'])
 def hello_world():
