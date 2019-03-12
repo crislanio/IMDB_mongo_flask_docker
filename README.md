@@ -1,13 +1,13 @@
-# IMDB crawer
+# IMDB crawler
 
 # ![File](img.PNG)
 
 ### Contexto da Aplicação
-IMDB Crawer
+IMDB crawler
 
 | Aplicação                     | Versão        |
 | :---------------------------- |:-------------:|
-| IMDB Crawer                 | 1.0.0           |
+| IMDB crawler                 | 1.0.0           |
 
 - Projeto feito usando o python mongo:4.0.6 e python:3.7.2
 
@@ -73,7 +73,7 @@ IMDB Crawer
  - pip install pytest coverage pytest-cov flask     # Instalando lib de teste
  - python test_core.py                              # testando APP
  - docker-compose up --build __ na pasta
- - python crawer_movies.py
+ - python crawler_movies.py
  - python app.py
 ## Testando a aplicação
 
